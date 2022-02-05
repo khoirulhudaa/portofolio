@@ -677,6 +677,36 @@ body {
     height: max-content;
 }
 
+.card-prod {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    margin: 0px 20px;
+}
+
+.wrap-product i {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 0%;
+    background-color: white;
+    border-radius: 9999px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transform: scale(1.8);
+    transition: 0.4s;
+}
+
+.wrap-product i:hover {
+    transition: 0.4s;
+    filter: brightness(85%);
+}
+
 .wrap-section5 {
     width: 100vw;
     display: flex;
@@ -735,7 +765,7 @@ body {
 .section5 img {
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 100%;
     border-radius: 13px;
 }
 
