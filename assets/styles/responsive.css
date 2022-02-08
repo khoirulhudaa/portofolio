@@ -666,6 +666,14 @@
         height: max-content;
     }
 
+    .section5-sertif {
+        position: relative;
+        width: 100vw;
+        background-color: #E5F0FF;
+        height: max-content;
+        margin-top: 60px;
+    }
+
     .wrap-section5 {
         width: 100vw;
         display: flex;
@@ -685,6 +693,20 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 21px;
+        line-height: 1.4em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .wrap-section5-sertif h2 {
+        width: 98vw;
+        font-style: normal;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
         margin-bottom: 30px;
         font-size: 21px;
         line-height: 1.4em;
@@ -726,6 +748,15 @@
         margin-right: auto;
         width: 90vw;
         margin-bottom: 20px;
+        border-radius: 13px;
+    }
+        
+    .section5-sertif img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90vw ;
+        margin-top: 0px;
+        margin-bottom: 10px;
         border-radius: 13px;
     }
         
