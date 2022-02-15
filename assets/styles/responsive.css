@@ -862,8 +862,8 @@
         font-weight: 500;
         margin-left: auto;
         margin-right: auto;
-        font-size: 24px;
-        margin-bottom: 20px;
+        font-size: 23px;
+        margin-bottom: 30px;
         text-align: left;
         line-height: 1.4em;
         width: 90vw;
@@ -973,11 +973,11 @@
         font-weight: 500;
         margin-left: auto;
         margin-right: auto;
-        font-size: 24px;
+        font-size: 23px;
         text-align: left;
         line-height: 1.4em;
         width: 90%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         color: #193766;
     }
 
