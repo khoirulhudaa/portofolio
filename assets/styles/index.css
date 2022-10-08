@@ -286,6 +286,7 @@ body {
     border-radius: 10px;
     margin: 10px;
     padding: 30px;
+    border: 2px solid #193766;
 }
 
 .card-section2 img {
@@ -377,7 +378,7 @@ body {
 }
 
 .wrap-section2b {
-    width: 90vw;
+    width: 95vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -390,7 +391,7 @@ body {
 
 .card-section2bb {
     position: relative;
-    width: 29%;
+    width: 33%;
     height: 380px;
     border-radius: 10px;
     margin: 14px;
@@ -399,7 +400,7 @@ body {
 
 .card-section2bc {
     position: relative;
-    width: 29%;
+    width: 33%;
     height: 380px;
     border-radius: 10px;
     margin: 14px;
@@ -408,7 +409,7 @@ body {
 
 .card-section2ba {
     position: relative;
-    width: 29%;
+    width: 33%;
     height: 380px;
     border-radius: 10px;
     margin: 14px;
@@ -417,7 +418,7 @@ body {
 
 .card-section2baa {
     position: relative;
-    width: 29%;
+    width: 33%;
     height: 380px;
     border-radius: 10px;
     margin: 14px;
@@ -425,7 +426,7 @@ body {
 }
 
 .card-section2ba .card-top1 {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     width: 100%;
     height: 60%;
     display: flex;
@@ -436,7 +437,7 @@ body {
 }
 
 .card-section2baa .card-top1 {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     width: 100%;
     height: 60%;
     display: flex;
@@ -446,8 +447,19 @@ body {
     overflow: hidden;
 }
 
+.card-section2baa .card-top1k {
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 207, 255);
+    overflow: hidden;
+}
+
 .card-section2bb .card-top2 {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     width: 100%;
     height: 60%;
     display: flex;
@@ -458,7 +470,7 @@ body {
 }
 
 .card-section2bc .card-top3 {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     width: 100%;
     height: 60%;
     display: flex;
@@ -493,6 +505,14 @@ body {
 }
 
 .card-section2baa .card-top1 .valll {
+    position: relative;
+    width: 27%;
+    height: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.card-section2baa .card-top1k .valll {
     position: relative;
     width: 27%;
     height: auto;
@@ -1291,15 +1311,17 @@ body {
 .wrap-portofolio {
     display: flex;
     overflow-x: scroll;
-    width: 100vw
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-portofolio {
     position: relative;
     cursor: pointer;
-    width: 300px;
+    width: 280px;
     overflow: hidden;
-    height: 300px;
+    height: 280px;
     text-align: center;
     background-color: #fff;
     margin: 14px;
@@ -1335,27 +1357,12 @@ body {
 .co-wrap-portofolio {
     display: flex;
     position: relative;
-    left: 0px;
-    width: max-content;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     animation: 7s df ease-out infinite;
-}
-
-@keyframes df {
-    0% {
-        margin-left: 50px;
-    }
-    30% {
-        margin-left: -240px;
-    }
-    55% {
-        margin-left: -320px;
-    }
-    76% {
-    margin-left: -240px;
-    }
-    100% {
-        margin-left: 50px;
-    }
 }
 
 .card-portofolio .title1, .title2, .title3, .title4, .title5 {
